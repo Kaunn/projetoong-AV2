@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 
-
 fetch("http://localhost:8081/sales-app/customers/json")
         .then(res => res.json()
         .then(json => console.log(json)));
